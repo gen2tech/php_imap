@@ -8,9 +8,9 @@ use Infmvc\Mailer\Email;
 use Infmvc\Mailer\EmailAttachment;
 use Infmvc\Mailer\Reader;
 
-define('IMAP_HOST', '{mail.joadescendants.com.ng:993/imap/ssl}');
-define('IMAP_USERNAME', 'fmail@joadescendants.com.ng');
-define('IMAP_PASSWORD', '1qaz@wsx3edc4rfV');
+define('IMAP_HOST', '');
+define('IMAP_USERNAME', '');
+define('IMAP_PASSWORD', '');
 define('ATTACHMENT_PATH', __DIR__ . '/attachments/');
 
 $imap = null;
